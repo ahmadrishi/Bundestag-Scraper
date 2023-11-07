@@ -6,7 +6,6 @@ from time import sleep
 from urllib.parse import urlencode
 import concurrent.futures
 from config import SCRAPER_API_KEY
-info = []
 links = open('data.csv', 'r+')
 errors = open('fail.txt', 'w+')
 writer = csv.writer(links)
